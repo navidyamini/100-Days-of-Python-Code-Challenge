@@ -5,7 +5,6 @@ print("Welcome to the Password Generator!")
 letters_no = int(input("How many letters would you like in your password?\n"))
 symbols_no = int(input("How many symbols would you like?\n"))
 numbers_no = int(input("How many numbers would you like?\n"))
-
 # Easy Version (Step 1)
 print("Easy Version (Step 1)")
 password = ''
