@@ -11,9 +11,10 @@ while front_is_clear():
 turn_left()
 
 while not at_goal():
-    if front_is_clear():
-        move()
     if right_is_clear():
         turn_right()
+        move()
+    elif front_is_clear():
+        move()
     else:
         turn_left()
