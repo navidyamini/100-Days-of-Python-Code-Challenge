@@ -1,0 +1,2 @@
+# The goal is to create a calculator program with very simple functionality
+# + - * / 
