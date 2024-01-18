@@ -6,8 +6,6 @@ clear = lambda: os.system('cls')
 # Include two different difficulty levels (e.g., 10 guesses in easy mode, only 5 in hard mode).
 HARD_LEVEL_TURNS = 5
 EASY_LEVEL_TURNS = 10
-clear()
-print(logo)
 
 def select_number():
     """ Returns an integer random number between 1 and 100 """
@@ -36,6 +34,8 @@ def check_answer(guess, number):
 
 def game():
     """The Game Function, the main one"""
+    clear()
+    print(logo)
     print("Welcome to the Number Guessing Game!\nI'm thinking of a number bewtween 1 and 100.")
     # ask about the difficulty level of the user
     level = input("Choose a difficulty. Type 'easy' or 'hard': ").lower()
