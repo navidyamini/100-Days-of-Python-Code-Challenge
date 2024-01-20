@@ -29,21 +29,21 @@ def compare(follower_count_a, follower_count_b, score, answer ):
         return score, False
 
 def select():
-    """selects two random cells from the data list and makes sure that they are not equal"""
-    first = {}
-    second = {}
-    while first == second:
-        first = random.choice(data)
-        second = random.choice(data)
-    return first, second
+    """selects two random cells from the data list"""
+    return random.choice(data)
 
 def game():
     clear_screan()
     right_answer = True
     score = 0
     # until when the user gives the right answer the game continues
+    first_choice = select()
+    second_choice = select()
     while right_answer:
-        first_choice, second_choice =  select()
+        first_choice = second_choice
+        second_choice = select()
+        while first_choice == second_choice:
+            second_choice = select()
         print(f"Compare A: {first_choice['name']}, a {first_choice['description']}, from {first_choice['country']}.")
         print(vs)
         print(f"Compare B: {second_choice['name']}, a {second_choice['description']}, from {second_choice['country']}.")
