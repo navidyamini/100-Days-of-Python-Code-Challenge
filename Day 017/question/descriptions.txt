@@ -1,5 +1,5 @@
 Quiz game
 OOP
 You will create a game, that asks simple True or False questions from the user and counts user scores,
-1 point for each right answer, the application stops when the user gives the wrong answer.
+1 point for each right answer, the application stops when the questions are finished.
 The application should provide feedback to the user at each step
