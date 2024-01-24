@@ -1,0 +1,1 @@
+we going to be using Python Turtle to create beautiful dot random painting 
