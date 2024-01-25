@@ -1,1 +1,1 @@
-we going to be using Python Turtle to create beautiful dot random painting 
+we are going to be using Python Turtle to create beautiful dot random painting 
