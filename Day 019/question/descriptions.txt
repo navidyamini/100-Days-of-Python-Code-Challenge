@@ -1,0 +1,3 @@
+We are going to code two games in this day:
+1. Etch A Sketch
+2. Turtle Race
