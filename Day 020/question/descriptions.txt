@@ -1,0 +1,4 @@
+The goal is to create old Snake body game. Part 1
+1- create snake body
+2- move the snake
+3- control the snake
