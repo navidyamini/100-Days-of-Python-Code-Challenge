@@ -34,7 +34,7 @@ class Snake:
         self.segments.append(new_turtle)
 
     def extend(self):
-        """ add new segment to the end of snake"""
+        """Add new segment to the end of snake"""
         x = self.segments[-1].position()[0]
         y = self.segments[-1].position()[1]
         self.add_segment(x, y)
