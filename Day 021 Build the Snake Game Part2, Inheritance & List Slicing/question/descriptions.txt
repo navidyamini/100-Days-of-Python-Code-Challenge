@@ -1,0 +1,5 @@
+The goal is to create old Snake body game. Part 2
+4- Detect collision with food
+5- Create a scoreboard
+6- Detect collision with wall
+7- Detect collision with tail
