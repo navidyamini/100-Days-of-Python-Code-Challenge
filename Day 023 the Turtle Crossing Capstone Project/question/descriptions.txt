@@ -1,0 +1,9 @@
+There is multilayer super busy highway and the turtle is going to cross this highway.
+The player controls the turtles witch going only forward. and the randomly generated cars that are going horizontally
+crossing the screen, if the player pass the street successfully the games will go to the next level,
+and cars will move faster, if the paley hit by car then the game will be over.
+1- Move the turtle with keypress
+2 - Create and move the cars
+3- Detect collision with car
+4- Detect when turtle reaches the other side
+5- Create a scoreboard
