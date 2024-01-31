@@ -1,0 +1,7 @@
+First Task is to make the snake game better, we are going to keep track of the high score.
+Add the previous high score to the score board and update it when the user scores higher than that.
+
+Second Task:
+Create a letter using starting_letter.docx
+for each name in invited_names.txt
+replace the letters in the folder "ReadyToSend"
