@@ -1,0 +1,2 @@
+we are going to work with data files. CSV anf Pandas, we are going to create a game to help us to learn
+ all the US states.
