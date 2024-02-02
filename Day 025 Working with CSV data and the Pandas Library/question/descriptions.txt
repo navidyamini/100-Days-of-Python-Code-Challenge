@@ -5,4 +5,7 @@ Next step, we will work with Squirrel Data.
 https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw/about_data
 1- create a new data frame, count the number of squirrels based on their color, and then save it in a new data frame.
 
-Final Project:
+Final Project: US state quiz
+we are going to replicate this page:
+https://www.sporcle.com/games/g/states
+the user should insert the US state's capital, if the answer is right it will appear on the map
