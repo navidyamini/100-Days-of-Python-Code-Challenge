@@ -1,2 +1,8 @@
-we are going to work with data files. CSV anf Pandas, we are going to create a game to help us to learn
+we are going to work with data files. CSV and Pandas, we are going to create a game to help us to learn
  all the US states.
+
+Next step, we will work with Squirrel Data.
+https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw/about_data
+1- create a new data frame, count the number of squirrels based on their color, and then save it in a new data frame.
+
+Final Project:
