@@ -1,4 +1,4 @@
-We are going to lear about List and Dictionary comprehension in python.
+We are going to learn about List and Dictionary comprehension in Python.
 
 Final Project:
 The goal is to write a script that takes a word as input and returns the NATO alphabet of that name.
