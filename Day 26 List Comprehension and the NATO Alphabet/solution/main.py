@@ -2,6 +2,11 @@ import random
 import pandas
 
 
+data_dict = {
+    "students": ["Amy", "James", "Angela"],
+    "scores": [76, 56, 65]
+}
+
 # How to create lists using comprehension
 numbers = [1, 2, 3]
 new_list = []
@@ -12,7 +17,7 @@ print(new_list)
 # We can convert it to
 new_list = [n + 1 for n in numbers]
 print(new_list)
-# you can also work with strings
+# You can also work with strings
 name = "Davide"
 letters_list = [letter for letter in name]
 print(letters_list)
@@ -26,17 +31,14 @@ print(short_names)
 upper_case_names = [name.upper() for name in names if len(name) > 4]
 print(upper_case_names)
 # How to use dictionary comprehension
-# loop over list
+# Loop over the list
 student_scores = {student: random.randint(1,100) for student in names}
 print(student_scores)
-# loop over dictionary
+# Loop over the dictionary
 passed_students = {student: value for (student,value) in student_scores.items() if value > 74}
 print(passed_students)
+
 # Iterate over Pandas dataframe
-data_dict = {
-    "students": ["Amy", "James", "Angela"],
-    "scores": [76, 56, 65]
-}
 student_data_frame = pandas.DataFrame(data_dict)
 print(student_data_frame)
 # Loop through rows of data frame
