@@ -1,7 +1,7 @@
-We are going to dice into graphical user interfaces with Tkinter and Function Arguments.
+We will dive into graphical user interfaces with Tkinter and Function Arguments.
 1- Creating Windows and Labels with Tkinter
 2- learn how to work with *args
 3- learn how to work with **kwargs
 
 Final Project:
-Create a windows application that converts mile to Km.
+Create a Windows application that converts mile to Km.
