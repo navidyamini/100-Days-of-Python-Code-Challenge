@@ -1,0 +1,3 @@
+This time we are going to create a Pomodoro app from scratch.
+It is going to be a timer on the tomato and starts from 25 minutes and goes down when reaches 0 it pop-ups an
+all the windows and reminds you that the time is over, and you have to take 5 5-minute break and go on...
