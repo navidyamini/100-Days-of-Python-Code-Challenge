@@ -1,2 +1,2 @@
-Today we will create password manager.
-we are going to use it to store and generate password.
+Today we will create a password manager.
+we are going to use it to store and generate passwords.
