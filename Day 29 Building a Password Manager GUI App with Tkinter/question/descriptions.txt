@@ -1,2 +1,6 @@
-Today we will create a password manager.
-we are going to use it to store and generate passwords.
+Today we will create password manager.
+we are going to use it to store and generate password.
+1- Create a function called saved().
+2- Write to the data inside the entries to a data.txt file when the Add button is clicked.
+3- Each website, email, and password combination should be on a new line inside the file.
+4- All fields need to be cleared after Add button is pressed.
