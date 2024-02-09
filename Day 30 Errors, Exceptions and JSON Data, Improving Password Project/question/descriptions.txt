@@ -1,1 +1,5 @@
-Today we will learn how to handle errors in the python code.
+Today we will learn how to handle errors in the Python code.
+Now go to the NATO alphabet project and make it more robust by handling the errors.
+The next step is to complete the Password Manager,
+1- Save the data into JSON.
+2- add a search button to search between different websites.
