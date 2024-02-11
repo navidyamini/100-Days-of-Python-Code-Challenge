@@ -1,2 +1,2 @@
-We are going to create flash card game to learn a language.
+We are going to create a flash card game to learn a language.
 1- Create the user interface with Tkinter
