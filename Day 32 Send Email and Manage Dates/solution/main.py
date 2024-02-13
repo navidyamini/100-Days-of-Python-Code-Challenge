@@ -18,9 +18,9 @@ if weekday == 1:
         connection.starttls()
         connection.login(user=my_email, password=password)
         connection.sendmail(
-        from_addr=my_email,
-        to_addrs="second_fake_email@fake.com",
-        msg=f"Subject:Monday Motivation\n\n{quote}"
+            from_addr=my_email,
+            to_addrs="second_fake_email@fake.com",
+            msg=f"Subject:Monday Motivation\n\n{quote}"
         )
 
 # now = dt.datetime.now()
