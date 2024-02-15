@@ -4,7 +4,7 @@ import random
 import smtplib
 
 MY_EMAIL = "fake_email@fake.com"
-PASSWORD = "fake_passwrd"
+PASSWORD = "fake_password"
 
 today = dt.datetime.now()
 today_tuple = (today.month, today.day)
