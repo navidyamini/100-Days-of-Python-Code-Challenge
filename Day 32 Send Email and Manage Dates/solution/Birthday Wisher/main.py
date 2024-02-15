@@ -3,8 +3,8 @@ import pandas as pd
 import random
 import smtplib
 
-MY_EMAIL = "python.code.test.2000@gmail.com"
-PASSWORD = "qxpnulakkhbodcjj"
+MY_EMAIL = "fake_email@fake.com"
+PASSWORD = "fake_passwrd"
 
 today = dt.datetime.now()
 today_tuple = (today.month, today.day)
@@ -19,7 +19,7 @@ if today_tuple in birthday_dict:
         contents = letter_file.read()
         contents = contents.replace("[NAME]", birthday_person["name"])
 
-    with smtplib.SMTP("smtp.gmail.com") as connection:
+    with smtplib.SMTP("smtp.fake.com") as connection:
         connection.starttls()
         connection.login(user=MY_EMAIL, password=PASSWORD)
         connection.sendmail(
