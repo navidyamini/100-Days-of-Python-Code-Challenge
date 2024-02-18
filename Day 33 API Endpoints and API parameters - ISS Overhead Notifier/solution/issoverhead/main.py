@@ -9,8 +9,8 @@ MY_LAT = 51.507351
 MY_LONG = -0.127758
 URL_ISS = "http://api.open-notify.org/iss-now.json"
 URL_SUN = "https://api.sunrise-sunset.org/json"
-MY_EMAIL = "python.code.test.2000@gmail.com"
-PASSWORD = "qxpnulakkhbodcjj"
+MY_EMAIL = "fake_email@fake.com"
+PASSWORD = "fake_password"
 
 
 def is_iss_overhead():
@@ -46,7 +46,7 @@ def is_night():
 while True:
     time.sleep(60)
     if is_iss_overhead() and is_night():
-        with smtplib.SMTP("smtp.gmail.com") as connection:
+        with smtplib.SMTP("smtp.fake.com") as connection:
             connection.starttls()
             connection.login(user=MY_EMAIL, password=PASSWORD)
             connection.sendmail(
