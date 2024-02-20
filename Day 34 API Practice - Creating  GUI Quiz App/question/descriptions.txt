@@ -1,2 +1,2 @@
-
+Today we are going to work with the Trivia API to create Quizzler App.
 
