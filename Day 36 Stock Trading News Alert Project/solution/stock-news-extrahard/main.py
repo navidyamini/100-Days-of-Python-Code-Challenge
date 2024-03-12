@@ -7,8 +7,8 @@ COMPANY_NAME = "Tesla Inc"
 VIRTUAL_TWILIO_NUMBER = "your virtual twilio number"
 VERIFIED_NUMBER = "your own phone number verified with Twilio"
 
-account_sid = "YOUR TWILIO ACCOUNT SID"
-auth_token = "YOUR TWILIO AUTH TOKEN"
+TWILIO_SID = "YOUR TWILIO ACCOUNT SID"
+TWILIO_AUTH_TOKEN = "YOUR TWILIO AUTH TOKEN"
 
 STOCK_ENDPOINT = 'https://www.alphavantage.co/query'
 STOCK_API_KEY = "YOUR OWN API KEY FROM ALPHAVANTAGE"
@@ -52,7 +52,7 @@ if abs(diff_percent) > 0.001:
     formatted_articles = [(f"{STOCK_NAME}: {up_down}{difference}% \nHeadline : {article['title']}. "
                            f"\nBrief: {article['description']}") for article in
                           three_articles]
-    client = Client(account_sid, auth_token)
+    client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
     for article in formatted_articles:
         message = client.messages \
             .create(
