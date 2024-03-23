@@ -1,8 +1,8 @@
 import requests
 from datetime import datetime
 
-USERNAME = "************************************"
-TOKEN = "*************************************"
+USERNAME = "******************************"
+TOKEN = "************************************"
 GRAPH_ID = "graph1"
 
 pixela_endpoint = "https://pixe.la/v1/users"
@@ -13,6 +13,7 @@ user_params = {
     "agreeTermsOfService": "yes",
     "notMinor": "yes",
 }
+# Request the USERNAME and TOKEN
 # response = requests.post(url=pixela_endpoint, json=user_params)
 # print(response.text)
 
@@ -30,6 +31,7 @@ headers = {
     "X-USER-TOKEN": TOKEN
 }
 
+# create new graph
 # response = requests.post(url=graph_endpoint, json=graph_config, headers=headers)
 # print(response.text)
 
@@ -42,6 +44,7 @@ pixel_data = {
     "quantity": input("How many kilometers did you cycle today? "),
 }
 
+# Add new pixel to the graph
 response = requests.post(url=pixel_creation_endpoint, json=pixel_data, headers=headers)
 print(response.text)
 
@@ -50,3 +53,15 @@ update_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs/{GRAPH_ID}/{today.strfti
 new_pixel_data = {
     "quantity": "4.5"
 }
+
+# Update the pixel
+## PUT
+response = requests.put(url=update_endpoint, json=new_pixel_data, headers=headers)
+print(response.text)
+
+delete_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs/{GRAPH_ID}/{today.strftime('%Y%m%d')}"
+
+
+## DELETE
+response = requests.delete(url=delete_endpoint, headers=headers)
+print(response.text)
